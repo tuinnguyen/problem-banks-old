@@ -1,0 +1,3 @@
+# Dãy bậc thang - Editorial
+
+Đầu tiên, ta sẽ sắp xếp lại dãy $a$ và tạo ra hai `set` $first$ chứa các phần tử tăng dần và $second$ chứa các phần tử giảm dần trong dãy bậc thang. Thêm phần tử lớn nhất vào $second$, sau đó, ta sẽ duyệt ngược dãy $a$ từ vị trí $n - 1$ về $1$. Nếu phần tử đang xét bằng với phần tử lớn nhất trong $a$ thì ta bỏ qua. Ngược lại, ta sẽ thêm phần tử $a_i$ vào $second$ nếu $a_i \ne a_{i + 1}$, với trường hợp $a_i = a_{i + 1}$, tức là ta đã có $a_i$ ở phần dãy giảm dần của dãy bậc thang nên ta sẽ thêm $a_i$ vào $first$. Vì trong `set`, các phần tử được sắp xếp tăng dần khi thêm vào, khi đó ta chỉ cần in ra dãy $first$ theo chiều xuôi và $second$ theo chiều ngược.
