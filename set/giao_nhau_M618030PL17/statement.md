@@ -2,7 +2,7 @@
 
 Cho hai tập giá trị $A$ và $B$ lần lượt có $n$ và $m$ phần tử là các số nguyên. Biết các phần tử trong hai tập $A$ đều đôi một khác nhau và tập $B$ cũng vậy.
 
-***Yêu cầu:*** Gọi $p$ là số lượng phần tử thuộc tập $A$ xuất hiện trong tập $B$. Hãy tìm giá trị $m$.
+***Yêu cầu:*** Gọi $p$ là số lượng phần tử thuộc tập $A$ xuất hiện trong tập $B$. Hãy tìm giá trị $p$.
 
 ## Input
 
